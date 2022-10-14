@@ -15,6 +15,13 @@ body {
   /* include your font family and default line-height */
 }
 
+.button {
+  text-decoration: none;
+  color: #fff;
+  padding: .5rem;
+  font-size: 1.1 em;
+  background-color: #1e4620
+}
 img {
   width: 100%;
 }
