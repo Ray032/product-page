@@ -8,10 +8,47 @@ html {
 
 html {
   font-size: 100%;
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 body {
   margin: 0;
+}
+
+h1 {
+  color: green;
+}
+
+.images {
+  display: grid;
+  object-fit: cover;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  grid-template-areas:
+  "feature feature feature"
+  "img2 img3 img4"
+  ;
+}
+
+.mainimage {
+
+}
+.feature {
+  grid-area: feature;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
 }
 
 .button {
@@ -19,10 +56,23 @@ body {
   color: #fff;
   padding: .5rem;
   font-size: 1.1 em;
-  background-color: #1e4620
+  background-color: #1e4620;
+
 }
+
+.addtocartbtn {
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 img {
-  width: 100%;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .wrapper {
@@ -58,12 +108,25 @@ footer {
   text-align: center;
 }
 
+@media only screen and (max-width: 38em) {
 
-/* Default styling for all screens ends here */
+  /* .images {
+    grid-template-columns: 76% 24%;
+    grid-template-areas:
+    "feature img2"
+    "feature img3"
+    "feature img4"
+    ;
+  }
 
-/* Add media query for tablet */
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } */
+
+
+  /* Add media query for tablet */
 
 
 
 
-/* Add media query for desktop */
+  /* Add media query for desktop */
