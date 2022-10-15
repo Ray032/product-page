@@ -33,10 +33,12 @@ h1 {
 }
 
 .mainimage {
-
 }
+
 .feature {
-  grid-area: feature;
+  border-radius: 30px;
+  max-width: 250em;
+  max-height: 300em;
 }
 
 .img2 {
@@ -67,6 +69,8 @@ h1 {
 .price {
   font-weight: bold;
   font-size: 1.5em;
+  margin-right: 10px;
+  margin-left: 20px;
 }
 
 img {
