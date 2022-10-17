@@ -47,7 +47,7 @@ blockquote {
 
 }
 .feature {
-  border-radius: 30px;
+  border-radius: 5px;
   max-width: 250em;
   max-height: 300em;
 }
@@ -70,7 +70,6 @@ blockquote {
   padding: .5rem;
   font-size: 1.1 em;
   background-color: #1e4620;
-
 }
 
 .add-to-cart-btn {
@@ -139,9 +138,11 @@ header nav ul li a {
   font-size: 1.25rem;
 }
 
-header nav ul li a:hover,
-header nav ul li a:focus {
+header nav ul li a:hover {
   text-decoration: underline;
+}
+
+header nav ul li a:focus {
 }
 
 footer {
@@ -151,22 +152,22 @@ footer {
 @media only screen and (max-width: 38em) {
 
   /* .images {
-    grid-template-columns: 76% 24%;
-    grid-template-areas:
-    "feature img2"
-    "feature img3"
-    "feature img4"
-    ;
-  }
+  grid-template-columns: 76% 24%;
+  grid-template-areas:
+  "feature img2"
+  "feature img3"
+  "feature img4"
+  ;
+}
 
-  .grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  } */
-
-
-  /* Add media query for tablet */
+.grid {
+grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
 
 
+/* Add media query for tablet */
 
 
-  /* Add media query for desktop */
+
+
+/* Add media query for desktop */
